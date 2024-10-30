@@ -39,6 +39,9 @@ android {
 }
 
 dependencies {
+    val work_version = "2.8.1"
+    implementation("androidx.work:work-runtime:$work_version")
+    implementation("androidx.work:work-runtime-ktx:$work_version")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
